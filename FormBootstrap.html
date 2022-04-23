@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <script src="/Bootstrap/js/bootstrap.bundle.js"></script> 
+
+
+    <style>
+        /* body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            box-sizing: border-box;
+            margin: 10px 0px 10px 5px;
+            padding: 10px;
+            background-color: transparent;
+        }
+        .botao{
+            padding: 10px;
+            width: 250px;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 15px;
+            box-shadow: 1px 1px 1px 1px black;
+            background-color: rgb(112, 111, 111);
+            color: white;
+        }
+        .botao :hover{
+            color: green;
+            background-color: red;
+        }
+        fieldset{
+            display: block;
+            margin:10px;
+            align-items: center;
+            border: 1px solid;
+            border-radius: 15px;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 1px 1px gray;
+        }
+        .genbg{
+            font-size: 25px;
+            letter-spacing: 3px;
+            text-decoration: underline;
+        }
+        .radio{
+            background-color: red;
+            border: 1px solid black;
+            align-items: center;
+        }
+        .container{
+            background-color:rgb(172, 172, 172);
+            border: 1px solid black;
+            width: 500px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            float: center;
+            box-sizing: border-box;
+            margin: auto;
+            border-radius: 15px;
+        }
+        input.passbg{
+            background-color: rgb(219, 216, 216);
+            border-radius: 15px;
+            box-shadow: 0px 1px 1px 1px gray;
+        }
+        input#name.namebg{
+            background-color: rgb(219, 216, 216);
+            border-radius: 15px;
+            box-shadow: 0px 1px 1px 1px gray;
+
+        }
+        input.embg{
+            background-color: rgb(219, 216, 216);
+            border-radius: 15px;
+            box-shadow: 0px 1px 1px 1px gray;
+        }
+        select{
+            background-color: rgb(219, 216, 216);
+            border-radius: 15px;
+            box-shadow: 0px 1px 1px 1px gray;
+        }
+         */
+
+         body{
+             background-image: url(imagens/Green.jpg);
+         }
+         .container {
+             display: block;
+             background-color: white;
+             border-radius: 15px;
+             align-items: center;
+         }
+    </style>
+</head>
+<body>
+    <div class="container ">
+        <div class="mb-3">
+    <form class="" action="mailto:oldzinho3035@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+        <legend>Formulario</legend>
+        </fieldset>
+        <label class="form-label" for="name" >Nome:</label>
+        <input class="form-control"name="nome" type="text" id="name" required>
+        <br>
+        
+        <label class="form-label" for="senha">Senha:</label>
+        <input class="form-control"name="password" type="password" required>
+        </fieldset>
+
+        <fieldset>
+        <label class="form-label">Email</label>
+        <input class="form-control"name="email" type="email" required>
+        </fieldset>
+
+        <fieldset>
+        <label class="form-label">Genero</label><br>
+        <input class="form-check-input" type="radio" name="gener" required>Masculino<br>
+        <input class="form-check-input" type="radio" name="gener" required>Feminino<br>
+        <input class="form-check-input" type="radio" name="gener" required>Outros.,<br>
+        </fieldset>
+
+        <fieldset>
+        <label class="form-label">Nacionalidade</label>
+        <select class="form-select" name="Nacionalidade" >
+            <option value="brazuca" selected >Brazuqueiro</option>
+            <option value="argenoia" >Argenoia</option>
+            <option value="portuguales" >Portuguales</option>
+        </select>
+        </fieldset>
+        <input class="btn-close-dark btn-lg btn-outline-white text-center align-items-center" type="submit" onclick="">
+        </fieldset>
+        
+    </form>
+    </div>
+    
+</body>
+</html>
